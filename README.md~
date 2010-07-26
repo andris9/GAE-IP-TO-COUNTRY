@@ -22,7 +22,7 @@ Usage
 
     print "You are from %s (country code - %s)" % (country, location)
 
-See demo: http://iptocountry.appspot.com/
+Demo: http://iptocountry.appspot.com/
 
 Comments
 --------

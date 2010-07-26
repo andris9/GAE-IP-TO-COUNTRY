@@ -30,6 +30,9 @@ class MainHandler(webapp.RequestHandler):
     country = iptocountry()
     note = "You are from <strong>%s</strong> (country code - <strong>%s</strong>)";
     self.response.out.write(note % (country, location))
+    self.response.out.write("""
+<p>Download from <a href="http://github.com/andris9/GAE-IP-TO-COUNTRY">Github</a></p>
+""")
 
 def main():
   application = webapp.WSGIApplication([('/', MainHandler)],
