@@ -24,6 +24,11 @@ Usage
 
 See demo: http://iptocountry.appspot.com/
 
+Updating
+--------
+
+To update the database, upzip the PHP files from http://www.phptutorial.info/iptocountry/ip_files.zip to /*src/ip_files*. Then run *parser.php* which generates new .PY files to *src/iptocountry*. Zip the directory *src/iptocountry* to *iptocountry.zip* and use the file instead of the old one in your projects.
+
 Comments
 --------
 

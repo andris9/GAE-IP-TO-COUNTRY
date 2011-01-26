@@ -4,6 +4,8 @@ from google.appengine.ext import webapp
 from google.appengine.ext.webapp import util
 
 import sys
+import logging
+logging.error("moh");
 sys.path.insert(0, 'iptocountry.zip')
 from iptocountry import convert as iptolocation, country as iptocountry
 
