@@ -1,3 +1,7 @@
+# NB! No need to use this module anymore
+
+Since SDK 1.5.1 you can use `X-AppEngine-country` request header (returns a two letter country code or ZZ for unknow locations) to retriev the country of the visitor, no need for external modules anymore.
+
 IP to Country
 =============
 
@@ -21,8 +25,6 @@ Usage
     country = iptocountry()
 
     print "You are from %s (country code - %s)" % (country, location)
-
-See demo: http://iptocountry.appspot.com/
 
 Updating
 --------
